@@ -2,7 +2,6 @@
 <template lang="html">
   <section id="rank_list">
     <public-header></public-header>
-    <p>排行榜</p>
   </section>
 </template>
 

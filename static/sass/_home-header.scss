@@ -2,16 +2,16 @@
 @import "./_theme.scss";
 .header{
   position: relative;
-  height: 44px;
+  height: 2.2rem;
   background: $header_bg;
 }
 .header {
   .music_logo{
     float: left;
     display: block;
-    width: 90px;
-    height: 25px;
-    margin: 9px 0 0 10px;
+    width: 4.5rem;
+    height: 1.25rem;
+    margin: 0.45rem 0 0 10px;
     background-image: url('../img/logo.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -21,12 +21,12 @@
     position: absolute;
     display: inline-block;
     right: 10px;
-    top: 8px;
-    height: 28px;
+    top: 0.4rem;
+    height: 1.4rem;
     padding: 0 12px;
-    line-height: 28px;
+    line-height: 1.4rem;
     border-radius: 99px;
-    font-size: 14px;
+    font-size: 0.7rem;
     background: $down_bg;
     color: #fff;
   }

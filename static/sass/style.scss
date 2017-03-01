@@ -5,6 +5,11 @@
   margin: 0 auto;
   background: #fff;
 }
+.wrapper{
+  img{
+    max-width: 100%;
+  }
+}
 @import "./_screen.scss";
 @import "./_home-header.scss";
 @import "./_nav.scss";
