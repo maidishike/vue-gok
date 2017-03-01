@@ -1,4 +1,10 @@
 @charset "UTF-8";
 @import "compass/reset";
+.wrapper{
+  max-width: 640px;
+  margin: 0 auto;
+  background: #fff;
+}
+@import "./_screen.scss";
 @import "./_home-header.scss";
 @import "./_nav.scss";

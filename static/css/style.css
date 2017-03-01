@@ -63,6 +63,48 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
+/* line 3, ../sass/style.scss */
+.wrapper {
+  max-width: 640px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+/* line 1, ../sass/_screen.scss */
+html {
+  font-size: 20px;
+}
+
+@media only screen and (min-width: 401px) {
+  /* line 5, ../sass/_screen.scss */
+  html {
+    font-size: 25px !important;
+  }
+}
+@media only screen and (min-width: 428px) {
+  /* line 10, ../sass/_screen.scss */
+  html {
+    font-size: 26.75px !important;
+  }
+}
+@media only screen and (min-width: 481px) {
+  /* line 15, ../sass/_screen.scss */
+  html {
+    font-size: 30px !important;
+  }
+}
+@media only screen and (min-width: 569px) {
+  /* line 20, ../sass/_screen.scss */
+  html {
+    font-size: 35px !important;
+  }
+}
+@media only screen and (min-width: 641px) {
+  /* line 25, ../sass/_screen.scss */
+  html {
+    font-size: 40px !important;
+  }
+}
 /* line 3, ../sass/_home-header.scss */
 .header {
   position: relative;
