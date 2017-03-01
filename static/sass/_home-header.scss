@@ -1,0 +1,33 @@
+@charset "UTF-8";
+@import "./_theme.scss";
+.header{
+  position: relative;
+  height: 44px;
+  background: $header_bg;
+}
+.header {
+  .music_logo{
+    float: left;
+    display: block;
+    width: 90px;
+    height: 25px;
+    margin: 9px 0 0 10px;
+    background-image: url('../img/logo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+  }
+  .btn_download{
+    position: absolute;
+    display: inline-block;
+    right: 10px;
+    top: 8px;
+    height: 28px;
+    padding: 0 12px;
+    line-height: 28px;
+    border-radius: 99px;
+    font-size: 14px;
+    background: $down_bg;
+    color: #fff;
+  }
+}
