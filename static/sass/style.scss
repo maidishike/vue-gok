@@ -1,9 +1,11 @@
 @charset "UTF-8";
 @import "compass/reset";
+body{
+  background: #f4f4f4;
+}
 .wrapper{
   max-width: 640px;
   margin: 0 auto;
-  background: #fff;
 }
 .wrapper{
   img{
@@ -13,3 +15,4 @@
 @import "./_screen.scss";
 @import "./_home-header.scss";
 @import "./_nav.scss";
+@import "./_rank-list.scss";

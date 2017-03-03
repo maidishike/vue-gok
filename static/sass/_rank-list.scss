@@ -1,0 +1,15 @@
+@charset "UTF-8";
+@mixin bgImg($url, $x_size, $y_size) {
+  background-image: url($url);
+  background-size: $x_size, $y_size;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.wrapper{
+  .loading{
+    width: 150px;
+    height: 150px;
+    margin: 2rem auto;
+    @include bgImg('../img/loading.gif' ,100% ,100%);
+  }
+}
