@@ -4,9 +4,7 @@
     <public-header></public-header>
     <div class="slide-box">
       <div class="slide-bar">
-        <a href="javascript:void(0);">
-          <img src="../../static/img/slide01.jpg" alt="">
-        </a>
+    
       </div>
     </div>
   </section>

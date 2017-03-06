@@ -6,10 +6,5 @@
   background-position: center;
 }
 .wrapper{
-  .loading{
-    width: 150px;
-    height: 150px;
-    margin: 2rem auto;
-    @include bgImg('../img/loading.gif' ,100% ,100%);
-  }
+
 }

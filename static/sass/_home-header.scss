@@ -4,30 +4,20 @@
   position: relative;
   height: 2.2rem;
   background: $header_bg;
+  text-align: center;
+  color: $header_color;
+  line-height: 2.2rem;
+  position: relative;
 }
-.header {
-  .music_logo{
-    float: left;
+.header{
+  .history-back{
     display: block;
-    width: 4.5rem;
-    height: 1.25rem;
-    margin: 0.45rem 0 0 10px;
-    background-image: url('../img/logo.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-indent: -9999px;
-  }
-  .btn_download{
     position: absolute;
-    display: inline-block;
-    right: 10px;
-    top: 0.4rem;
-    height: 1.4rem;
-    padding: 0 12px;
-    line-height: 1.4rem;
-    border-radius: 99px;
-    font-size: 0.7rem;
-    background: $down_bg;
-    color: #fff;
+    top: 0;
+    left: 0;
+    color: $header_color;
+  }
+  .history-back{
+
   }
 }

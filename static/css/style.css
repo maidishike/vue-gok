@@ -63,18 +63,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 3, ../sass/style.scss */
+/* line 4, ../sass/style.scss */
 body {
   background: #f4f4f4;
 }
 
-/* line 6, ../sass/style.scss */
+/* line 7, ../sass/style.scss */
 .wrapper {
   max-width: 640px;
   margin: 0 auto;
 }
 
-/* line 11, ../sass/style.scss */
+/* line 12, ../sass/style.scss */
 .wrapper img {
   max-width: 100%;
 }
@@ -119,32 +119,18 @@ html {
   position: relative;
   height: 2.2rem;
   background: #31c27c;
+  text-align: center;
+  color: #fff;
+  line-height: 2.2rem;
+  position: relative;
 }
 
-/* line 9, ../sass/_home-header.scss */
-.header .music_logo {
-  float: left;
+/* line 13, ../sass/_home-header.scss */
+.header .history-back {
   display: block;
-  width: 4.5rem;
-  height: 1.25rem;
-  margin: 0.45rem 0 0 10px;
-  background-image: url("../img/logo.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  text-indent: -9999px;
-}
-/* line 20, ../sass/_home-header.scss */
-.header .btn_download {
   position: absolute;
-  display: inline-block;
-  right: 10px;
-  top: 0.4rem;
-  height: 1.4rem;
-  padding: 0 12px;
-  line-height: 1.4rem;
-  border-radius: 99px;
-  font-size: 0.7rem;
-  background: #149c5a;
+  top: 0;
+  left: 0;
   color: #fff;
 }
 
@@ -187,15 +173,4 @@ a {
   right: 0;
   height: 2px;
   background: #31c27c;
-}
-
-/* line 9, ../sass/_rank-list.scss */
-.wrapper .loading {
-  width: 150px;
-  height: 150px;
-  margin: 2rem auto;
-  background-image: url("../img/loading.gif");
-  background-size: 100%, 100%;
-  background-repeat: no-repeat;
-  background-position: center;
 }

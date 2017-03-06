@@ -1,7 +1,7 @@
 <template lang="html">
   <header class="header">
-    <i class="music_logo">QQ音乐</i>
-    <a href="javascript:;" class="btn_download">下载APP</a>
+    <a href="javascript:void(0);" class="history-back">&lt;</a>
+    主页
   </header>
 </template>
 <script>
