@@ -222,23 +222,37 @@ a {
   text-align: center;
 }
 /* line 16, ../sass/_hero-list.scss */
+.wrapper .hero-list a {
+  display: block;
+  color: #333;
+}
+/* line 20, ../sass/_hero-list.scss */
 .wrapper .hero-list img {
   display: block;
   margin: 0 auto;
   min-height: 7rem;
 }
-/* line 21, ../sass/_hero-list.scss */
+/* line 25, ../sass/_hero-list.scss */
 .wrapper .hero-list .block {
   margin: 5px;
 }
-/* line 24, ../sass/_hero-list.scss */
+/* line 28, ../sass/_hero-list.scss */
 .wrapper .hero-list .hero-name {
   font-size: 16px;
   margin-top: 5px;
 }
-/* line 28, ../sass/_hero-list.scss */
+/* line 32, ../sass/_hero-list.scss */
 .wrapper .hero-list .hero-title {
   font-size: 14px;
   margin-top: 5px;
   color: #999;
+}
+
+/* line 2, ../sass/_detail.scss */
+.detail-box .detail-banner {
+  padding-left: 1rem;
+  background-size: cover;
+  height: 9rem;
+  color: #fff;
+  font-weight: 700;
 }

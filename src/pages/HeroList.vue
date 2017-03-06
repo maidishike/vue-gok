@@ -3,13 +3,13 @@
     <home-header v-bind:title="title"></home-header>
     <ul class="hero-ul">
       <li class="hero-list" v-for="item in items">
-        <!-- <router-link :to="{ name: 'bar', params: { id: 123 }}"> -->
+        <router-link :to="{name: 'detail', params: { id: item.hero_id }}">
           <div class="block">
             <img :src="img_base+item.hero_img_id+'.png'" alt="" />
             <p class="hero-name">{{item.hero_name}}</p>
             <p class="hero-title">{{item.hero_title}}</p>
           </div>
-        <!-- </router-link> -->
+        </router-link>
       </li>
     </ul>
     <nav-bar></nav-bar>

@@ -2,6 +2,7 @@
 const BaseUrl = 'http://kogapi.games-cube.com/'
 const UserAreaUrl = BaseUrl + 'UserArea/'
 const ImgUrl = 'http://cdn.tgp.qq.com/kog/v3/images/'
+
 export default {
   /**  @description 获取指定用户名所在的区服信息及用户在区服中的基本信息。
   *    @param keyword:游戏用户名
@@ -52,12 +53,17 @@ export default {
   getFreeHero(area_id, world_id, open_id){
     return UserAreaUrl + 'FreeHero?area_id='+area_id+'&world_id='+world_id+'&open_id='+open_id
   },
-
   /**
    *  @description 获取所有英雄
    */
   getAllHero(){
     return BaseUrl + 'champion'
+  },
+  /**
+   *  @description 英雄详细信息
+   */
+  getChampionDetail(hero_id){
+    return BaseUrl + 'championdetail?hero_id='+ hero_id
   },
 
   /**

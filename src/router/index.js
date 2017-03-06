@@ -4,6 +4,7 @@ import Router from 'vue-router'
 import Recom from '@/pages/Recom'
 import Search from '@/pages/Search'
 import HeroList from '@/pages/HeroList'
+import Detail from '@/pages/Detail'
 Vue.use(Router)
 // Vue.use(VueResource)
 
@@ -22,5 +23,10 @@ export default new Router({
     path: '/list',
     name: 'HeroList',
     component: HeroList
+  },
+  {
+    path: '/detail/:id',
+    name: 'detail',
+    component: Detail
   }]
 })
