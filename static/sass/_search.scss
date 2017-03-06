@@ -1,0 +1,31 @@
+@charset "UTF-8";
+@import "compass/css3";
+@mixin bgImg($url, $x_size, $y_size) {
+  background-image: url($url);
+  background-size: $x_size, $y_size;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.wrapper{
+  .search-bar{
+    @include display-flex(flex);
+    padding: 5px;
+    background: $header_bg;
+    height: 2rem;
+  }
+  .search-bar{
+    .search-input{
+      @include flexbox((flex-grow: 3));
+      padding-left: .75rem;
+      font-size: .8rem;
+    }
+    .search-btn{
+      @include flexbox((flex-grow: 1));
+      background: $header_bg;
+      border: none;
+      color: #fff;
+      width: 4rem;
+      display: block;
+    }
+  }
+}

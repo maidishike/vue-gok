@@ -1,11 +1,11 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import VueResource from 'vue-resource'
+// import VueResource from 'vue-resource'
 import Recom from '@/pages/Recom'
-import RankList from '@/pages/RankList'
 import Search from '@/pages/Search'
+import HeroList from '@/pages/HeroList'
 Vue.use(Router)
-Vue.use(VueResource)
+// Vue.use(VueResource)
 
 export default new Router({
   routes: [{
@@ -14,13 +14,13 @@ export default new Router({
     component: Recom
   },
   {
-    path: '/ranklist',
-    name: 'RankList',
-    component: RankList
+    path: '/search',
+    name: 'Search',
+    component: Search
   },
   {
-    path: '/search',
-    name: 'seach',
-    component: Search
+    path: '/list',
+    name: 'HeroList',
+    component: HeroList
   }]
 })

@@ -5,6 +5,10 @@ a{
 }
 .nav{
   background: $wt_bg;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   @include flexbox((
     display: box,
   ), $version: 1);

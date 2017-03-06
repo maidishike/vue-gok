@@ -1,11 +1,13 @@
 <template lang="html">
   <header class="header">
     <a href="javascript:void(0);" class="history-back">&lt;</a>
-    主页
+    <span>{{title}}</span>
   </header>
 </template>
 <script>
-export default {}
+export default {
+  props: ["title"]
+}
 </script>
 
 <style lang="css">

@@ -8,13 +8,16 @@
   color: $header_color;
   line-height: 2.2rem;
   position: relative;
+  font-size: 1rem;
 }
 .header{
   .history-back{
     display: block;
     position: absolute;
     top: 0;
-    left: 0;
+    left: -0.25rem;
+    font-size: 1.5rem;
+    padding: 0 10px;
     color: $header_color;
   }
   .history-back{

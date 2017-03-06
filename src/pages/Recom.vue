@@ -1,21 +1,29 @@
 <!-- 推荐 -->
 <template lang="html">
   <section id="recom">
-    <public-header></public-header>
+    <home-header v-bind:title="title"></home-header>
+    <nav-bar></nav-bar>
     <div class="slide-box">
       <div class="slide-bar">
-    
+
       </div>
     </div>
   </section>
 </template>
 
 <script>
-import PublicHeader from '../components/PublicHeader'
+import HomeHeader from '@/components/HomeHeader'
+import NavBar from '@/components/NavBar'
 export default {
   name: 'recom',
+  data () {
+    return {
+      title: "推荐"
+    }
+  },
   components: {
-    PublicHeader
+    HomeHeader,
+    NavBar
   }
 }
 </script>

@@ -1,13 +1,13 @@
 <template>
   <div class="hello">
     <home-header></home-header>
-    <nav-header></nav-header>
+    <nav-bar></nav-bar>
   </div>
 </template>
 
 <script>
   import HomeHeader from './HomeHeader'
-  import NavHeader from './Nav'
+  import NavBar from './NavBar'
   export default {
     name: 'hello',
     data () {
@@ -17,7 +17,7 @@
     },
     components: {
       HomeHeader,
-      NavHeader
+      NavBar
     }
   }
 </script>
