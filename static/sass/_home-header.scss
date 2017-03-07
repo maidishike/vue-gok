@@ -1,9 +1,7 @@
 @charset "UTF-8";
 @import "./_theme.scss";
 .header{
-  position: relative;
   height: 2.2rem;
-  background: $header_bg;
   text-align: center;
   color: $header_color;
   line-height: 2.2rem;
@@ -11,6 +9,13 @@
   font-size: 1rem;
 }
 .header{
+  .mint-header{
+    height: 2.2rem;
+    font-size: .8rem;
+  }
+  .mintui{
+    font-size: .8rem;
+  }
   .history-back{
     display: block;
     position: absolute;

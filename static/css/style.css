@@ -114,11 +114,15 @@ html {
     font-size: 40px !important;
   }
 }
+/* line 9, ../sass/_theme.scss */
+.mint-spinner-triple-bounce, .mint-spinner-fading-circle {
+  margin: 20px auto;
+  text-align: center;
+}
+
 /* line 3, ../sass/_home-header.scss */
 .header {
-  position: relative;
   height: 2.2rem;
-  background: #31c27c;
   text-align: center;
   color: #fff;
   line-height: 2.2rem;
@@ -126,7 +130,16 @@ html {
   font-size: 1rem;
 }
 
-/* line 14, ../sass/_home-header.scss */
+/* line 12, ../sass/_home-header.scss */
+.header .mint-header {
+  height: 2.2rem;
+  font-size: .8rem;
+}
+/* line 16, ../sass/_home-header.scss */
+.header .mintui {
+  font-size: .8rem;
+}
+/* line 19, ../sass/_home-header.scss */
 .header .history-back {
   display: block;
   position: absolute;
@@ -149,11 +162,12 @@ a {
   bottom: 0;
   left: 0;
   width: 100%;
+  z-index: 10;
   display: -moz-box;
   display: -webkit-box;
 }
 
-/* line 17, ../sass/_nav.scss */
+/* line 18, ../sass/_nav.scss */
 .nav a {
   -webkit-box-flex: 1;
   position: relative;
@@ -166,11 +180,11 @@ a {
   color: rgba(0, 0, 0, 0.6);
   -webkit-box-sizing: border-box;
 }
-/* line 29, ../sass/_nav.scss */
+/* line 30, ../sass/_nav.scss */
 .nav a.router-link-active {
   color: #31c27c;
 }
-/* line 33, ../sass/_nav.scss */
+/* line 34, ../sass/_nav.scss */
 .nav a.router-link-active:after {
   content: "";
   display: block;
@@ -230,7 +244,7 @@ a {
 .wrapper .hero-list img {
   display: block;
   margin: 0 auto;
-  min-height: 7rem;
+  min-height: 9rem;
 }
 /* line 25, ../sass/_hero-list.scss */
 .wrapper .hero-list .block {
@@ -249,10 +263,105 @@ a {
 }
 
 /* line 2, ../sass/_detail.scss */
+.detail-box {
+  position: relative;
+  padding-bottom: 3rem;
+}
+/* line 5, ../sass/_detail.scss */
 .detail-box .detail-banner {
-  padding-left: 1rem;
   background-size: cover;
-  height: 9rem;
   color: #fff;
   font-weight: 700;
+}
+/* line 10, ../sass/_detail.scss */
+.detail-box .tag-box {
+  position: absolute;
+  top: 0.1rem;
+  left: .5rem;
+}
+/* line 15, ../sass/_detail.scss */
+.detail-box .tag-name {
+  color: #fff;
+  font-size: .8rem;
+}
+/* line 19, ../sass/_detail.scss */
+.detail-box .detail-box {
+  padding: 0 .5rem .5rem .5rem;
+  background: #fff;
+}
+/* line 23, ../sass/_detail.scss */
+.detail-box .flex-box {
+  margin-bottom: 5px;
+  overflow: hidden;
+  margin-top: .5rem;
+  padding-top: 0.5rem;
+}
+/* line 29, ../sass/_detail.scss */
+.detail-box .flex-left {
+  float: left;
+  width: 4rem;
+}
+/* line 33, ../sass/_detail.scss */
+.detail-box .flex-left2 {
+  margin-left: .5rem;
+  float: right;
+  width: 10.5rem;
+  font-size: 0.7rem;
+  line-height: 1rem;
+}
+/* line 40, ../sass/_detail.scss */
+.detail-box .use-title {
+  font-size: 0.8rem;
+  line-height: 1rem;
+}
+/* line 44, ../sass/_detail.scss */
+.detail-box .use-skill {
+  font-size: 0.7rem;
+  line-height: 1rem;
+  margin-top: .5rem;
+  padding: 0.5rem;
+}
+
+/* line 4, ../sass/_world.scss */
+#world .world-box {
+  padding: 0 .5rem;
+  background: #fff;
+}
+/* line 8, ../sass/_world.scss */
+#world .world-list {
+  overflow: hidden;
+  padding: 1rem auto;
+}
+/* line 11, ../sass/_world.scss */
+#world .world-list .mint-badge.is-size-normal {
+  font-size: 0.75rem;
+}
+/* line 14, ../sass/_world.scss */
+#world .world-list li {
+  float: left;
+  width: 7.25rem;
+  margin: 0.1rem 0;
+  border: 1px solid #ddd;
+  padding: 1rem 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 23, ../sass/_world.scss */
+#world .world-list li:nth-child(odd) {
+  margin-right: 0.25rem;
+}
+/* line 26, ../sass/_world.scss */
+#world .world-list li:nth-child(even) {
+  margin-left: 0.25rem;
+}
+/* line 29, ../sass/_world.scss */
+#world .world-list li p {
+  text-align: center;
+  margin-top: 0.5rem;
+}
+/* line 33, ../sass/_world.scss */
+#world .world-list li .badge {
+  position: relative;
+  left: 1rem;
 }

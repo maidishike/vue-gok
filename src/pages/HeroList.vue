@@ -5,7 +5,7 @@
       <li class="hero-list" v-for="item in items">
         <router-link :to="{name: 'detail', params: { id: item.hero_id ,imgId: item.hero_img_id }}">
           <div class="block">
-            <img :src="img_base+item.hero_img_id+'.png'" alt="" />
+            <img v-lazy="img_base+item.hero_img_id+'.png'" alt="" />
             <p class="hero-name">{{item.hero_name}}</p>
             <p class="hero-title">{{item.hero_title}}</p>
           </div>

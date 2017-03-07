@@ -1,0 +1,39 @@
+@import "compass/css3";
+@import "./_theme.scss";
+#world{
+  .world-box{
+    padding: 0 .5rem;
+    background: $wt_bg;
+  }
+  .world-list{
+    overflow: hidden;
+    padding: 1rem auto;
+    .mint-badge.is-size-normal{
+      font-size: 0.75rem;
+    }
+    li{
+      float: left;
+      width: 7.25rem;
+      margin: 0.1rem 0;
+      border: 1px solid #ddd;
+      padding: 1rem 0;
+      @include box-sizing(border-box);
+    }
+    li{
+      &:nth-child(odd){
+        margin-right: 0.25rem;
+      }
+      &:nth-child(even){
+        margin-left: 0.25rem;
+      }
+      p{
+        text-align: center;
+        margin-top: 0.5rem;
+      }
+      .badge{
+        position: relative;
+        left: 1rem;
+      }
+    }
+  }
+}

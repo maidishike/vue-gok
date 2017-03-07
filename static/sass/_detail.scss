@@ -1,9 +1,50 @@
+@import "compass/css3";
 .detail-box{
+  position: relative;
+  padding-bottom: 3rem;
   .detail-banner{
-    padding-left: 1rem;
     background-size: cover;
-    height: 9rem;
     color: #fff;
     font-weight: 700;
+  }
+  .tag-box{
+    position: absolute;
+    top: 0.1rem;
+    left: .5rem;
+  }
+  .tag-name{
+    color: #fff;
+    font-size: .8rem;
+  }
+  .detail-box{
+    padding: 0 .5rem .5rem .5rem;
+    background: $wt_bg;
+  }
+  .flex-box{
+    margin-bottom: 5px;
+    overflow: hidden;
+    margin-top: .5rem;
+    padding-top: 0.5rem;
+  }
+  .flex-left{
+    float: left;
+    width: 4rem;
+  }
+  .flex-left2{
+    margin-left: .5rem;
+    float: right;
+    width: 10.5rem;
+    font-size: 0.7rem;
+    line-height: 1rem;
+  }
+  .use-title{
+    font-size: 0.8rem;
+    line-height: 1rem;
+  }
+  .use-skill{
+    font-size: 0.7rem;
+    line-height: 1rem;
+    margin-top: .5rem;
+    padding: 0.5rem;
   }
 }

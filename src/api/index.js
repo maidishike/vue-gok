@@ -72,5 +72,12 @@ export default {
    */
   getCommonUseResource(resource){
     return ImgUrl + resource
+  },
+  /**
+   *  @description 国服区服字典
+   *  @param resource: 资源路径后缀
+   */
+  getWorld(world){
+    return BaseUrl + world
   }
 }

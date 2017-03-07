@@ -1,7 +1,10 @@
 <template lang="html">
   <header class="header">
-    <a href="javascript:void(0);" class="history-back">&lt;</a>
-    <span>{{title}}</span>
+    <mt-header v-bind:title="title">
+      <router-link to="/list" slot="left">
+        <mt-button icon="back"></mt-button>
+      </router-link>
+    </mt-header>
   </header>
 </template>
 <script>
