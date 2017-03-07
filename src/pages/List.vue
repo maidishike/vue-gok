@@ -7,7 +7,7 @@
 </template>
 <script>
 import api from '../api'
-const header = {'DAIWAN-API-TOKEN': '78710-B0810-777C7-C9A85'}
+const header = {'DAIWAN-API-TOKEN': 'BB929-56B2B-F6A99-B926D'}
 export default {
   data () {
     return {

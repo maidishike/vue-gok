@@ -25,7 +25,7 @@ export default new Router({
     component: HeroList
   },
   {
-    path: '/detail/:id',
+    path: '/detail/:id/:imgId',
     name: 'detail',
     component: Detail
   }]

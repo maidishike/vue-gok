@@ -3,7 +3,7 @@
     <home-header v-bind:title="title"></home-header>
     <ul class="hero-ul">
       <li class="hero-list" v-for="item in items">
-        <router-link :to="{name: 'detail', params: { id: item.hero_id }}">
+        <router-link :to="{name: 'detail', params: { id: item.hero_id ,imgId: item.hero_img_id }}">
           <div class="block">
             <img :src="img_base+item.hero_img_id+'.png'" alt="" />
             <p class="hero-name">{{item.hero_name}}</p>
@@ -23,7 +23,7 @@
   import api from '@/api'
   import axios from 'axios'
   const TOKEN = {
-    "DAIWAN-API-TOKEN": "EEF78-F1DD4-158DD-59D89"
+    "DAIWAN-API-TOKEN": "BB929-56B2B-F6A99-B926D"
   }
   export default {
     name: 'HeroList',

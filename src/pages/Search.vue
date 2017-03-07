@@ -16,7 +16,7 @@ import NavBar from '@/components/NavBar'
 import api from '@/api'
 import axios from 'axios'
 const TOKEN = {
-  "DAIWAN-API-TOKEN": "EEF78-F1DD4-158DD-59D89"
+  "DAIWAN-API-TOKEN": "BB929-56B2B-F6A99-B926D"
 }
 export default {
   name: 'Search',
@@ -37,7 +37,7 @@ export default {
         api.getUserArea(userId),
         {headers: TOKEN}
       ).then((res) => {
-        
+
       })
     }
   }

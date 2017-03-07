@@ -2,9 +2,7 @@
   <section id="detail">
     <home-header v-bind:title="title"></home-header>
     <div class="detail-box">
-      <div class="detail-banner">
-        
-      </div>
+      <img class="detail-banner" :src="resource">
     </div>
     <nav-bar></nav-bar>
   </section>
@@ -17,12 +15,14 @@
   import api from '@/api'
   import axios from 'axios'
   const TOKEN = {
-    "DAIWAN-API-TOKEN": "EEF78-F1DD4-158DD-59D89"
+    "DAIWAN-API-TOKEN": "BB929-56B2B-F6A99-B926D"
   }
   export default {
     data () {
       return {
-        title: "123"
+        title: "",
+        resource: api.getCommonUseResource('heroCard')+'/'+this.$route.params.id+'.jpg',
+        data: []
       }
     },
     created () {
@@ -34,7 +34,8 @@
         axios.get(api.getChampionDetail(id),{
           headers: TOKEN
         }).then((res) => {
-          this.title = res.data.data[0].name;
+          this.title = res.data.data[0].name
+          this.data = res.data.data[0]
         })
       }
     },
