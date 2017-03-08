@@ -3,6 +3,7 @@ const BaseUrl = 'http://kogapi.games-cube.com/'
 const UserAreaUrl = BaseUrl + 'UserArea/'
 const ImgUrl = 'http://cdn.tgp.qq.com/kog/v3/images/'
 
+
 export default {
   /**  @description 获取指定用户名所在的区服信息及用户在区服中的基本信息。
   *    @param keyword:游戏用户名
@@ -77,10 +78,10 @@ export default {
    *  @description 国服区服字典
    *  @param resource: 资源路径后缀
    */
-  getWorld(world){
-    return BaseUrl + world
+  getWorld(){
+    return './static/data/item.json'
   },
   TOKEN : {
-    "DAIWAN-API-TOKEN": "BE041-BC8DB-2EEA1-DD183"
+    "DAIWAN-API-TOKEN": "4EE8F-F8E42-48AFF-9D69F"
   }
 }

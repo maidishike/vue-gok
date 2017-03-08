@@ -3,7 +3,7 @@
       <mt-tabbar v-model="selected">
         <mt-tab-item id="recom">
           <!-- <img slot="icon" src="../assets/100x100.png"> -->
-          推荐
+          装备
         </mt-tab-item>
         <mt-tab-item id="search">
           <!-- <img slot="icon" src="../assets/100x100.png"> -->

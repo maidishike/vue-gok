@@ -8,25 +8,83 @@
 }
 .wrapper{
   .search-bar{
-    @include display-flex(flex);
-    padding: 5px;
+    padding: 0.25rem;
     background: $header_bg;
     height: 2rem;
+    display: flex;
+    -webkit-display: flex;
   }
   .search-bar{
     .search-input{
-      @include flexbox((flex-grow: 3));
       padding-left: .75rem;
       font-size: .8rem;
+      height: 1.75rem;
+      border: none;
+      flex:1 1 11.5rem;
+      -webkit-flex: 1 1 11.5rem;
     }
     .search-btn{
-      @include flexbox((flex-grow: 1));
       background: $header_bg;
       border: none;
       color: #fff;
-      width: 4rem;
-      display: block;
+      width: 4.25rem;
+      line-height: 2rem;
       font-size: .8rem;
+      padding: 0;
+    }
+  }
+
+  .hero-box{
+    .hero-block{
+      overflow: hidden;
+      padding: 0.5rem;
+      display: flex;
+      -webkit-display: flex;
+    }
+    .hero-title{
+      height: 2rem;
+      line-height: 2rem;
+      background: $header_bg;
+      margin-top: 0.1rem;
+      font-size: 0.8rem;
+      color: #fff;
+      padding-left: 0.5rem;
+    }
+    .hero-left{
+    }
+    .hero-img{
+      flex:1 1 4rem;
+      -webkit-flex: 1 1 4rem;
+    }
+    .hero-content{
+      flex:1 1 9rem;
+      -webkit-flex: 1 1 9rem;
+      margin-left: 0.5rem;
+      font-size: 0.8rem;
+      line-height: 1rem;
+    }
+    .hero-detail{
+      position: relative;
+      background: $header_bg;
+      margin-top: 0.5rem;
+      padding: 0.5rem 0.5rem 0.5rem 2rem ;
+      color: #fff;
+      &:first-child{
+        margin-top: 0;
+      }
+      &:before{
+        font-family: "mintui" !important;
+        content: "\E602";
+        display: inline-block;
+        position: absolute;
+        top: 0.5rem;
+        left: 0.5rem;
+      }
+    }
+    .btn-detail{
+      background: $header_bg;
+      color: #fff;
+      padding: 0.5rem;
     }
   }
 }

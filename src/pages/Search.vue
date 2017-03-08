@@ -7,15 +7,21 @@
       <button @click="searchHero(heroId)" class="search-btn">搜索</button>
     </div>
     <spinner v-show="showSpinner"></spinner>
-    <section class="hero-box">
-      <div class="hero-left">
-        <img v-bind:src="searchData.img_src" alt="">
+    <section class="hero-box" v-show="showHero">
+      <p class="hero-title">英雄介绍：{{searchData.hero_name}}</p>
+      <div class="hero-block">
+        <div class="hero-left hero-img">
+          <img v-bind:src="searchData.img_src" alt="">
+        </div>
+        <div class="hero-left hero-content">
+          <p class="hero-detail">{{searchData.hero_title}}</p>
+          <p class="hero-detail">{{searchData.atk_range}}</p>
+          <p class="hero-detail">{{searchData.hero_desc}}</p>
+        </div>
       </div>
-      <div class="hero-left">
-        <p></p>
-        <p></p>
-        <p></p>
-      </div>
+      <router-link :to="{name: 'detail', params: { id: searchData.hero_id ,imgId: searchData.hero_img_id }}">
+        <div class="btn-detail">查看英雄详情</div>
+      </router-link>
     </section>
     <nav-bar></nav-bar>
   </section>
@@ -37,7 +43,8 @@ export default {
       heroId: "",
       data: [],
       searchData: {},
-      showSpinner: false
+      showSpinner: false,
+      showHero: false
     }
   },
   created (){
@@ -55,14 +62,12 @@ export default {
       })
     },
     searchHero (heroId){
+      let _self = this
       this.data.forEach(function(item){
-        if(item.hero_id == heroId){
-          this.searchData.hero_img_id = item.hero_img_id
-          this.searchData.hero_id = item.hero_id
-          this.searchData.hero_desc = item.hero_desc
-          this.searchData.hero_title = item.hero_title
-          this.searchData.atk_range = item.atk_range
-          this.searchData.img_src = api.getCommonUseResource('heroPortrait')+'/'+item.hero_img_id+'.png'
+        if(item.hero_name === heroId){
+          _self.searchData = item
+          _self.searchData.img_src = api.getCommonUseResource('heroPortrait')+'/'+item.hero_img_id+'.png'
+          _self.showHero = true
         }
       })
     }

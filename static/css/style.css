@@ -1,4 +1,4 @@
-/* line 5, E:/software/tools/work_tools/Ruby/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../software/tools/work_tools/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, E:/software/tools/work_tools/Ruby/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../software/tools/work_tools/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, E:/software/tools/work_tools/Ruby/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../software/tools/work_tools/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, E:/software/tools/work_tools/Ruby/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../software/tools/work_tools/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, E:/software/tools/work_tools/Ruby/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../software/tools/work_tools/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, E:/software/tools/work_tools/Ruby/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../software/tools/work_tools/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, E:/software/tools/work_tools/Ruby/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../software/tools/work_tools/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, E:/software/tools/work_tools/Ruby/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../software/tools/work_tools/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, E:/software/tools/work_tools/Ruby/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../software/tools/work_tools/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -72,9 +72,10 @@ body {
 .wrapper {
   max-width: 640px;
   margin: 0 auto;
+  padding-bottom: 2rem;
 }
 
-/* line 12, ../sass/style.scss */
+/* line 13, ../sass/style.scss */
 .wrapper img {
   max-width: 100%;
 }
@@ -202,29 +203,87 @@ a {
 
 /* line 10, ../sass/_search.scss */
 .wrapper .search-bar {
-  display: -webkit-flex;
-  display: flex;
-  padding: 5px;
+  padding: 0.25rem;
   background: #26a2ff;
   height: 2rem;
+  display: flex;
+  -webkit-display: flex;
 }
-/* line 17, ../sass/_search.scss */
+/* line 18, ../sass/_search.scss */
 .wrapper .search-bar .search-input {
-  -webkit-flex-grow: 3;
-  flex-grow: 3;
   padding-left: .75rem;
   font-size: .8rem;
+  height: 1.75rem;
+  border: none;
+  flex: 1 1 11.5rem;
+  -webkit-flex: 1 1 11.5rem;
 }
-/* line 22, ../sass/_search.scss */
+/* line 26, ../sass/_search.scss */
 .wrapper .search-bar .search-btn {
-  -webkit-flex-grow: 1;
-  flex-grow: 1;
   background: #26a2ff;
   border: none;
   color: #fff;
-  width: 4rem;
-  display: block;
+  width: 4.25rem;
+  line-height: 2rem;
   font-size: .8rem;
+  padding: 0;
+}
+/* line 38, ../sass/_search.scss */
+.wrapper .hero-box .hero-block {
+  overflow: hidden;
+  padding: 0.5rem;
+  display: flex;
+  -webkit-display: flex;
+}
+/* line 44, ../sass/_search.scss */
+.wrapper .hero-box .hero-title {
+  height: 2rem;
+  line-height: 2rem;
+  background: #26a2ff;
+  margin-top: 0.1rem;
+  font-size: 0.8rem;
+  color: #fff;
+  padding-left: 0.5rem;
+}
+/* line 55, ../sass/_search.scss */
+.wrapper .hero-box .hero-img {
+  flex: 1 1 4rem;
+  -webkit-flex: 1 1 4rem;
+}
+/* line 59, ../sass/_search.scss */
+.wrapper .hero-box .hero-content {
+  flex: 1 1 9rem;
+  -webkit-flex: 1 1 9rem;
+  margin-left: 0.5rem;
+  font-size: 0.8rem;
+  line-height: 1rem;
+}
+/* line 66, ../sass/_search.scss */
+.wrapper .hero-box .hero-detail {
+  position: relative;
+  background: #26a2ff;
+  margin-top: 0.5rem;
+  padding: 0.5rem 0.5rem 0.5rem 2rem;
+  color: #fff;
+}
+/* line 72, ../sass/_search.scss */
+.wrapper .hero-box .hero-detail:first-child {
+  margin-top: 0;
+}
+/* line 75, ../sass/_search.scss */
+.wrapper .hero-box .hero-detail:before {
+  font-family: "mintui" !important;
+  content: "\E602";
+  display: inline-block;
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+}
+/* line 84, ../sass/_search.scss */
+.wrapper .hero-box .btn-detail {
+  background: #26a2ff;
+  color: #fff;
+  padding: 0.5rem;
 }
 
 /* line 4, ../sass/_hero-list.scss */
@@ -382,4 +441,32 @@ a {
 #world .world-list li .badge {
   position: relative;
   left: 1rem;
+}
+/* line 39, ../sass/_world.scss */
+#world .equip-list {
+  overflow: hidden;
+  padding-top: 1rem;
+}
+/* line 42, ../sass/_world.scss */
+#world .equip-list li {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 0.8rem;
+}
+/* line 48, ../sass/_world.scss */
+#world .equip-list li img {
+  width: 2.1rem;
+  height: 2.1rem;
+  border: 2px solid #26a2ff;
+  border-radius: 10px 0 10px 0;
+}
+/* line 54, ../sass/_world.scss */
+#world .equip-list li .equip-name {
+  padding-top: .25rem;
+}
+/* line 59, ../sass/_world.scss */
+#world .mint-tab-item-label {
+  font-size: .6rem;
 }

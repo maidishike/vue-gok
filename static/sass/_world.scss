@@ -36,4 +36,27 @@
       }
     }
   }
+  .equip-list{
+    overflow: hidden;
+    padding-top: 1rem;
+    li{
+      float: left;
+      width: 33.33%;
+      text-align: center;
+      margin-bottom: 1rem;
+      font-size: 0.8rem;
+      img{
+        width: 2.1rem;
+        height: 2.1rem;
+        border: 2px solid $header_bg;
+        border-radius: 10px 0 10px 0;
+      }
+      .equip-name{
+        padding-top: .25rem;
+      }
+    }
+  }
+  .mint-tab-item-label{
+    font-size: .6rem;
+  }
 }
