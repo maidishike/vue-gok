@@ -8,7 +8,7 @@ export default {
   *    @param keyword:游戏用户名
   */
   getUserArea(keyword){
-    return UserAreaUrl + 'UserArea?keyword=' + keyword
+    return UserAreaUrl + '?keyword=' + keyword
   },
   /**
    *  @description 玩家详细信息
@@ -79,5 +79,8 @@ export default {
    */
   getWorld(world){
     return BaseUrl + world
+  },
+  TOKEN : {
+    "DAIWAN-API-TOKEN": "BE041-BC8DB-2EEA1-DD183"
   }
 }

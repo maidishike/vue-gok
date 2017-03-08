@@ -42,7 +42,7 @@
   import axios from 'axios'
   import Spinner from '@/components/Spinner'
   const TOKEN = {
-    "DAIWAN-API-TOKEN": "BB929-56B2B-F6A99-B926D"
+    "DAIWAN-API-TOKEN": "BE041-BC8DB-2EEA1-DD183"
   }
   export default {
     data () {

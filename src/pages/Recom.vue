@@ -23,9 +23,7 @@ import NavBar from '@/components/NavBar'
 import api from '@/api'
 import axios from 'axios'
 import Spinner from '@/components/Spinner'
-const TOKEN = {
-  "DAIWAN-API-TOKEN": "BB929-56B2B-F6A99-B926D"
-}
+const TOKEN = api.TOKEN
 export default {
   name: 'recom',
   data () {

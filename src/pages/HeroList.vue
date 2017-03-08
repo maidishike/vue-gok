@@ -22,9 +22,7 @@
   import NavBar from '@/components/NavBar'
   import api from '@/api'
   import axios from 'axios'
-  const TOKEN = {
-    "DAIWAN-API-TOKEN": "BB929-56B2B-F6A99-B926D"
-  }
+  const TOKEN = api.TOKEN
   export default {
     name: 'HeroList',
     created () {
