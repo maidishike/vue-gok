@@ -13,12 +13,15 @@
         <mt-tab-item id="4">移动</mt-tab-item>
         <mt-tab-item id="5">打野</mt-tab-item>
       </mt-navbar>
-      <ul class="equip-list">
-        <li v-for="item in filterData">
+      <ul class="equip-list" >
+        <li v-bind:id="item.item_id" v-for="item in filterData">
           <img v-lazy="icon_url+'/'+item.item_id+'.jpg'" alt="">
           <p class="equip-name">{{item.item_name}}</p>
         </li>
       </ul>
+      <mt-popup class="equip-popup" closeOnClickModal="true" v-model="popupVisible" popup-transition="popup-fade">
+        123
+      </mt-popup>
     </div>
   </section>
 </template>
@@ -40,7 +43,8 @@ export default {
       items: [],
       type: '0',
       // icon_url: api.getCommonUseResource('equipment')
-      icon_url: "http://game.gtimg.cn/images/yxzj/img201606/itemimg"
+      icon_url: "http://game.gtimg.cn/images/yxzj/img201606/itemimg",
+      popupVisible: true
     }
   },
   created(){
@@ -55,7 +59,19 @@ export default {
         this.items = res.data
       })
     },
-
+    // showEquipDetail(e){
+    //   var Target = e.target;
+    //   let targetId = '';
+    //   if(Target.nodeName == "LI"){
+    //     targetId= Target.id;
+    //   }
+    //   if(Target.nodeName.indexOf('LI') === -1){
+    //     let target = Target.parentNode
+    //     targetId= target.id
+    //   }
+    //   console.log(Target.nodeName.indexOf('LI'))
+    //   return targetId
+    // }
 
   },
   computed: {
