@@ -60,6 +60,51 @@
     font-size: .6rem;
   }
   .equip-popup{
-    
+    background: rgba(0,0,0,.9);
+    opacity: 0.9;
+    border: 1px solid $header_bg;
+    width: 10rem;
+    padding: 1.2rem 0.75rem 1.2rem 1.65rem;
+    z-index: 100;
+    .popup-img{
+      width: 2.7rem;
+      height: 2.7rem;
+      float: left;
+      margin-right: 0.75rem;
+    }
+    .item-title.clearfix{
+      height: 3.7rem;
+      zoom: 1;
+    }
+    .cons{
+      float: left;
+      margin-left: 0.3rem;
+    }
+    h4{
+      font-size: 0.9rem;
+      font-weight: bold;
+      color: #23ff28;
+      line-height: 1.3rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    p {
+      font-size: 0.7rem;
+      color: #da951c;
+      line-height: 1.5rem;
+    }
+    .item-desc {
+      padding: 0.6rem 0;
+      color: #369ff9;
+      font-size: 0.7rem;
+      line-height: 1.1rem;
+    }
+    .item-desc div {
+      line-height: 1.1rem;
+      word-wrap: break-word;
+      word-break: break-all;
+      margin-bottom: 0.5rem;
+    }
   }
 }

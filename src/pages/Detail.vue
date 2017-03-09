@@ -41,9 +41,7 @@
   import api from '@/api'
   import axios from 'axios'
   import Spinner from '@/components/Spinner'
-  const TOKEN = {
-    "DAIWAN-API-TOKEN": "BE041-BC8DB-2EEA1-DD183"
-  }
+  const TOKEN = api.TOKEN
   export default {
     data () {
       return {

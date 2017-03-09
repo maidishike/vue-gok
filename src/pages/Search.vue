@@ -42,8 +42,8 @@ export default {
       title: "搜索",
       heroId: "",
       data: [],
-      searchData: {},
-      showSpinner: false,
+      searchData: [],
+      showSpinner: true,
       showHero: false
     }
   },
@@ -59,13 +59,15 @@ export default {
         headers: TOKEN
       }).then((res) => {
         this.data = res.data.data
+        this.showSpinner = false;
       })
     },
     searchHero (heroId){
       let _self = this
       this.data.forEach(function(item){
-        if(item.hero_name === heroId){
+        if(item.hero_name == heroId){
           _self.searchData = item
+          console.log(item);
           _self.searchData.img_src = api.getCommonUseResource('heroPortrait')+'/'+item.hero_img_id+'.png'
           _self.showHero = true
         }

@@ -1,20 +1,16 @@
 <template lang="html">
   <nav class="nav">
       <mt-tabbar v-model="selected">
-        <mt-tab-item id="recom">
-          <!-- <img slot="icon" src="../assets/100x100.png"> -->
+        <mt-tab-item id="equip">
+          <img slot="icon" src="../../static/img/icon_01.jpg">
           装备
         </mt-tab-item>
         <mt-tab-item id="search">
-          <!-- <img slot="icon" src="../assets/100x100.png"> -->
+          <img slot="icon" src="../../static/img/icon_02.jpg">
           搜索
         </mt-tab-item>
-        <mt-tab-item>
-          <!-- <img slot="icon" src="../assets/100x100.png"> -->
-          tab3
-        </mt-tab-item>
         <mt-tab-item id="list">
-          <!-- <img slot="icon" src="../assets/100x100.png"> -->
+          <img slot="icon" src="../../static/img/icon_03.png">
           英雄
         </mt-tab-item>
       </mt-tabbar>
@@ -34,8 +30,8 @@
         case 'HeroList':
             this.selected = 'list'
             break
-        case 'Recom':
-            this.selected = 'recom'
+        case 'Equip':
+            this.selected = 'equip'
             break
         case 'Search':
             this.selected = 'search'

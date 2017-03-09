@@ -1,0 +1,32 @@
+.home{
+  width: 100%;
+  height: 100%;
+  // background: url("../img/home.jpg") no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  .toEquip{
+    position: absolute;
+    bottom: 2rem;
+    left: 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+    button{
+      width: 5rem;
+      background: $header_bg;
+      border: 1px solid $header_bg;
+      height: 1.8rem;
+      border-radius: 4px;
+      color: #fff;
+      font-size: 0.8rem;
+    }
+  }
+  .home-title{
+    position: absolute;
+    top: 6rem;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #fff;
+  }
+}

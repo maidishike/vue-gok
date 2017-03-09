@@ -19,7 +19,7 @@ a{
       -webkit-box-flex: 1;
       position: relative;
       display: block;
-      height: 2rem;
+      height: 2.5rem;
       line-height: 2rem;
       overflow: hidden;
       text-align: center;
@@ -29,6 +29,9 @@ a{
   }
   a.router-link-active{
     color: $nav_color;
+  }
+  img{
+    height: auto !important;
   }
   a.router-link-active {
     &:after {
@@ -45,5 +48,9 @@ a{
   .mint-tab-item-label{
     font-size: .6rem;
   }
-
+  .mint-tab-item-icon{
+    width: 1.2rem;
+    height: 1.2rem;
+    margin: 0 auto 0.25rem;
+  }
 }
