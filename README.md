@@ -5,6 +5,13 @@
 
 > 邮箱：wsgtracy@163.com
 
+　
+> 扫一扫查看
+
+![](http://omltcytf6.bkt.clouddn.com/qrcode.png)
+
+[在线地址](http://118.178.56.106/gok/#/)
+
 ### 1、技术栈
 
 - [vue-cli](https://github.com/vuejs/vue-cli) Vuejs脚手架
