@@ -1,6 +1,18 @@
-# vue-take-out
+# vue-gok
 
-> A Vue.js project
+## vue2.0-王者荣耀助手
+
+
+### 1、技术栈
+
+- vue-cli
+- vue2.0
+- [vue-router](https://github.com/vuejs/vue-router)
+- [sass](https://github.com/sass/sass) Css预编译
+- [mint-ui](https://github.com/ElemeFE/mint-ui) 由饿了么前端团队推出的 Mint UI 是一个基于 Vue.js 的移动端组件库
+- [axios](https://github.com/mzabriskie/axios) 基于Promise的HTTP请求客户端，可同时在浏览器和 node.js 中使用
+
+
 
 ## Build Setup
 
