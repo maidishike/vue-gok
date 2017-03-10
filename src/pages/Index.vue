@@ -17,10 +17,7 @@ export default {
     this.init()
   },
   mounted(){
-    console.log(document.getElementById('app'));
     document.getElementById('app').classList.add('index')
-
-
   },
   methods: {
     init(){

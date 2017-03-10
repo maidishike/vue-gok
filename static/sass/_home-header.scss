@@ -1,12 +1,20 @@
 @charset "UTF-8";
 @import "./_theme.scss";
 .header{
+  width: 100%;
+  max-width: 640px;
   height: 2.2rem;
   text-align: center;
   color: $header_color;
   line-height: 2.2rem;
   position: relative;
   font-size: 1rem;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
 }
 .header{
   .mint-header{
