@@ -5,16 +5,23 @@
 
 ### 1、技术栈
 
-- vue-cli
-- vue2.0
-- [vue-router](https://github.com/vuejs/vue-router)
+- [vue-cli](https://github.com/vuejs/vue-cli) Vuejs脚手架
+- [vue2.0](https://github.com/vuejs/vue) 渐进式
+JavaScript 框架
+- [vue-router](https://github.com/vuejs/vue-router) Vue路由组件
 - [sass](https://github.com/sass/sass) Css预编译
 - [mint-ui](https://github.com/ElemeFE/mint-ui) 由饿了么前端团队推出的 Mint UI 是一个基于 Vue.js 的移动端组件库
 - [axios](https://github.com/mzabriskie/axios) 基于Promise的HTTP请求客户端，可同时在浏览器和 node.js 中使用
 
+### 2、完成模块
 
+- [x] 英雄列表页
+- [x] 英雄详情页
+- [x] 英雄搜索页面
+- [x] 装备列表页面
+- [x] 装备详情页面
 
-## Build Setup
+### 3、Build Setup
 
 ``` bash
 # install dependencies
@@ -38,5 +45,7 @@ npm run e2e
 # run all tests
 npm test
 ```
+### 4、效果图
+
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
