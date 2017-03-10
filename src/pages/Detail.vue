@@ -3,7 +3,6 @@
     <home-header v-bind:title="title"></home-header>
     <div class="detail-box">
       <img class="detail-banner" :src="resource">
-      <spinner v-show="showSpinner"></spinner>
       <div class="tag-box">
         <mt-badge type="primary" v-if="data.tag1">{{data.tag1}}</mt-badge>
         <mt-badge type="success" v-if="data.tag2">{{data.tag2}}</mt-badge>
@@ -12,6 +11,7 @@
         <mt-tab-item id="tab1">技能说明</mt-tab-item>
         <mt-tab-item id="tab2">英雄技巧</mt-tab-item>
       </mt-navbar>
+      <spinner v-show="showSpinner"></spinner>
       <div class="detail-box">
         <div v-show="selectedTab == 'tab1'" class="flex-box" v-for="skill in skill_list">
           <div class="flex-left">

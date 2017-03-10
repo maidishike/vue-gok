@@ -4,33 +4,40 @@
     <img src="../../static/img/1.jpg" alt="" />
     <img src="../../static/img/2.jpg" alt="" />
     <img src="../../static/img/3.jpg" alt="" />
-    <router-link class="toEquip" to="/equip">
+    <div class="toEquip" @click="toHome">
       <button type="button" name="button">Go!!!</button>
-    </router-link>
+    </div>
   </section>
 </template>
 
 <script>
 export default {
+  name: "Index",
+  created(){
+    this.init()
+  },
+  mounted(){
+    console.log(document.getElementById('app'));
+    document.getElementById('app').classList.add('index')
+
+
+  },
+  methods: {
+    init(){
+      document.getElementsByTagName('html')[0].style.height = "100%";
+      document.body.style.height = "100%";
+    },
+    toHome(){
+      let url = "#/equip"
+      document.getElementsByTagName('html')[0].style.height = "auto";
+      document.body.style.height = "auto";
+      document.getElementById('app').classList.remove('index');
+      window.location.href = url;
+    }
+  }
 }
 </script>
 
 <style lang="css">
-  html, body, .wrapper{
-    height: 100%;
-  }
-  body{
-    overflow-x: hidden;
-    overflow-y: auto;
-  }
-  .wrapper{
-    padding-bottom: 0;
-  }
-  .wrapper img {
-    max-width: 100%;
-    width: 100%;
-    height: 33.33%;
-    display: block;
-    margin: 0 auto;
-  }
+
 </style>
