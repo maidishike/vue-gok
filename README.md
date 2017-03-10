@@ -1,7 +1,9 @@
 # vue-gok
 
 ## vue2.0-王者荣耀助手
+> 项目使用的是[带玩游戏平台](http://www.games-cube.com/)提供的API，由于腾讯公司王者荣耀游戏关闭了查看其它人的战绩功能，带玩平台受其影响，已将API暂时关闭，所以无法获得稳定的** DAIWAN-API-TOKEN ** ,所以会出现DAIWAN-API-TOKEN令牌过期的情况。大家可以邮箱联系我，或者自行获得DAIWAN-API-TOKEN，然后对本项目进行修改。多多包含
 
+> 邮箱：wsgtracy@163.com
 
 ### 1、技术栈
 
@@ -47,5 +49,23 @@ npm test
 ```
 ### 4、效果图
 
+<img src="http://omltcytf6.bkt.clouddn.com/1.png" width="200" height="355"/>
+<img src="http://omltcytf6.bkt.clouddn.com/2.png" width="200" height="355"/>
+<img src="http://omltcytf6.bkt.clouddn.com/5.png" width="200" height="355"/>
+<img src="http://omltcytf6.bkt.clouddn.com/3.png" width="200" height="355"/>
+<img src="http://omltcytf6.bkt.clouddn.com/4.png" width="200" height="355"/>
+
+### 5、待完成模块
+
+- [ ] 细节优化
+- [ ] 英雄搜索bug修复
+- [ ] 英雄详情内容细节调整
+- [ ] 英雄搜索页面优化
+- [ ] 新增王者荣耀资讯模块
+- [ ] 修复返回按钮bug
+
+#### 6. 结语
+
+这段时间一直在学习Vue的相关知识，也看过其他人写的项目，所以决定自己动手写一个小项目，目前这个项目还存在一些Bug，希望大家多提意见。喜欢的朋友可以star一下，也会一直更新该项目。最后感谢[带玩游戏平台](http://www.games-cube.com/)提供的API！
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
