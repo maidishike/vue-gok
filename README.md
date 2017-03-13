@@ -1,9 +1,7 @@
 # vue-gok
 
 ## vue2.0-王者荣耀助手
-> 项目使用的是[带玩游戏平台](http://www.games-cube.com/)提供的API，由于腾讯公司王者荣耀游戏关闭了查看其它人的战绩功能，带玩平台受其影响，已将API暂时关闭，所以无法获得稳定的** DAIWAN-API-TOKEN ** ,所以会出现DAIWAN-API-TOKEN令牌过期的情况。大家可以邮箱联系我，或者自行获得DAIWAN-API-TOKEN，然后对本项目进行修改。
-
-> 邮箱：wsgtracy@163.com
+> 项目使用的是[带玩游戏平台](http://www.games-cube.com/)提供的API，由于腾讯公司王者荣耀游戏关闭了查看其它人的战绩功能，带玩平台受其影响，已将API暂时关闭，所以无法获得稳定的** DAIWAN-API-TOKEN ** ,所以会出现DAIWAN-API-TOKEN令牌过期的情况。
 
 　
 > 扫一扫查看
