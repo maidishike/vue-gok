@@ -82,6 +82,6 @@ export default {
     return './static/data/item.json'
   },
   TOKEN : {
-    "DAIWAN-API-TOKEN": "75549-423BC-22843-824F2"
+    "DAIWAN-API-TOKEN": "C152A-AC91C-25CDD-CA19A"
   }
 }
