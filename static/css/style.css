@@ -393,27 +393,31 @@ a {
   font-size: 0.7rem;
   line-height: 1rem;
 }
-/* line 40, ../sass/_detail.scss */
+/* line 39, ../sass/_detail.scss */
+.detail-box .flex-left2 .skill-name {
+  color: #26a2ff;
+}
+/* line 43, ../sass/_detail.scss */
 .detail-box .use-title {
   font-size: 0.8rem;
   line-height: 1rem;
 }
-/* line 44, ../sass/_detail.scss */
+/* line 47, ../sass/_detail.scss */
 .detail-box .use-skill {
   font-size: 0.7rem;
   line-height: 1rem;
   margin-top: .5rem;
   padding: 0.5rem;
 }
-/* line 50, ../sass/_detail.scss */
+/* line 53, ../sass/_detail.scss */
 .detail-box .mint-tab-item-label {
   font-size: .6rem;
 }
-/* line 53, ../sass/_detail.scss */
+/* line 56, ../sass/_detail.scss */
 .detail-box .mint-navbar .mint-tab-item {
   padding: .85rem 0;
 }
-/* line 56, ../sass/_detail.scss */
+/* line 59, ../sass/_detail.scss */
 .detail-box .mint-badge.is-size-normal {
   font-size: 0.75rem;
   padding: 0.1rem 0.4rem;

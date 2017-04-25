@@ -63,15 +63,20 @@ export default {
       })
     },
     searchHero (heroId){
-      let _self = this
+      let _self = this;
+      _self.searchData = [];
       this.data.forEach(function(item){
         if(item.hero_name == heroId){
-          _self.searchData = item
-          console.log(item);
-          _self.searchData.img_src = api.getCommonUseResource('heroPortrait')+'/'+item.hero_img_id+'.png'
-          _self.showHero = true
+          item.img_src = api.getCommonUseResource('heroPortrait')+'/'+item.hero_img_id+'.png'
+          _self.searchData.push(item)
+           _self.showHero = true
         }
-      })
+      });
+      if (_self.searchData.length > 0) {
+        _self.searchData = _self.searchData[0];
+      }else {
+        _self.showHero = false;
+      }
     }
   },
   components: {
