@@ -54,11 +54,11 @@ npm test
 ```
 ### 4、效果图
 
-<img src="http://omltcytf6.bkt.clouddn.com/1.png" width="200" height="355"/>
-<img src="http://omltcytf6.bkt.clouddn.com/2.png" width="200" height="355"/>
-<img src="http://omltcytf6.bkt.clouddn.com/5.png" width="200" height="355"/>
-<img src="http://omltcytf6.bkt.clouddn.com/3.png" width="200" height="355"/>
-<img src="http://omltcytf6.bkt.clouddn.com/4.png" width="200" height="355"/>
+<img src="http://omltcytf6.bkt.clouddn.com/1.png" style="display: inline;" width="200" height="355"/>
+<img src="http://omltcytf6.bkt.clouddn.com/2.png" style="display: inline;" width="200" height="355"/>
+<img src="http://omltcytf6.bkt.clouddn.com/5.png" style="display: inline;" width="200" height="355"/>
+<img src="http://omltcytf6.bkt.clouddn.com/3.png" style="display: inline;" width="200" height="355"/>
+<img src="http://omltcytf6.bkt.clouddn.com/4.png" style="display: inline;" width="200" height="355"/>
 
 ### 5、待完成模块
 
