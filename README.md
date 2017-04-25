@@ -54,7 +54,7 @@ npm test
 ```
 ### 4、效果图
 
-<img src="http://omltcytf6.bkt.clouddn.com/1.png" alt="效果图" title="效果图" width="200" height="355"/><img src="http://omltcytf6.bkt.clouddn.com/2.png" alt="效果图" title="效果图" width="200" height="355"/><img src="http://omltcytf6.bkt.clouddn.com/5.png" alt="效果图" title="效果图" width="200" height="355"/><img src="http://omltcytf6.bkt.clouddn.com/3.png" alt="效果图" title="效果图" width="200" height="355"/><img src="http://omltcytf6.bkt.clouddn.com/4.png" alt="效果图" title="效果图" width="200" height="355"/>
+<img src="http://omltcytf6.bkt.clouddn.com/1.png" alt="效果图" title="效果图" style="margin: 0 11px;" width="200" height="355"/><img src="http://omltcytf6.bkt.clouddn.com/2.png" alt="效果图" title="效果图" style="margin: 0 11px;" width="200" height="355"/><img src="http://omltcytf6.bkt.clouddn.com/5.png" alt="效果图" title="效果图" style="margin: 0 11px;" width="200" height="355"/><img src="http://omltcytf6.bkt.clouddn.com/3.png" style="margin: 0 11px;" alt="效果图" title="效果图" width="200" height="355"/><img src="http://omltcytf6.bkt.clouddn.com/4.png" alt="效果图" title="效果图" style="margin: 0 11px;" width="200" height="355"/>
 
 ### 5、待完成模块
 
